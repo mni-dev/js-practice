@@ -51,8 +51,16 @@ favFruits.sort((a, c) => {
     if (c > a) return -1;
     return 0;
 })
-console.log(favFruits);
+// console.log(favFruits);
 
-//
-
+//with same letter but differnt words
+const animals = ['ant', 'lion', 'Leopard', 'dog', 'Dolphin', 'iguana']
+animals.sort((a, c)=>{
+    a = a.toLowerCase();
+    c = c.toLowerCase();
+    if (a>c) return 1;
+    if (c>a) return -1;
+    return 0;
+})
+console.log(animals);
 

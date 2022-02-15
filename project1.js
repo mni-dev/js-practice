@@ -26,15 +26,21 @@ function doubleTriple(num){
     const inputField = document.getElementById('input-field');
     const inputCont = inputField.value;
     const showField = document.getElementById('dbl-tpl');
-    let a = 10;
+    // let a = 10;
     showField.innerText = inputCont * num;
     if(isNaN(inputCont)){
         alert('please enter a number');
-        console.log(inputCont)
+        // console.log(inputCont)
+    
     } 
     else{
          return showField;
     } 
-   
-    
+  /*  switch(inputCont){
+       case 'string':
+            alert('please, input a number.');
+            break;
+   } */
+
 }
+     
