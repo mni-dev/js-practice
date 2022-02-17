@@ -31,7 +31,6 @@ function doubleTriple(num){
     if(isNaN(inputCont)){
         alert('please enter a number');
         // console.log(inputCont)
-    
     } 
     else{
          return showField;
@@ -41,6 +40,5 @@ function doubleTriple(num){
             alert('please, input a number.');
             break;
    } */
-
 }
      

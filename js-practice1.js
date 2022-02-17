@@ -10,21 +10,28 @@ for(let i = 0; i<myFavFoods.length; i++){
 }
 
 //Method 2:
-const myFavFoods = ['maggi Noodls', 'asparagus', 'hamburgar', 'muffin cake', 'polao'];
+// const myFavFoods = ['maggi Noodls', 'asparagus', 'hamburgar', 'muffin cake', 'polao'];
 myFavFoods.forEach(function(arr, arrInd, array){
     if(array[arrInd].match('m')){
-        console.log(array[arrInd]);
+        // console.log(array[arrInd]);
     }
 })
 
 //Return names that start with 'md' from an Array
 const myFriends = ['rezaul', 'md aiman', 'Md Atik', 'ashraf', 'athahar', 'MD ayub', 'md abdus sattar'];
 //with for loop
+/* const namesWithMd = 'md';
 for(let i =0; i<myFriends.length; i++){
-    if(myFriends[i].startsWith('md')){
+    if(myFriends[i].startsWith(nameWithMd)){
         console.log(myFriends[i]);
     }
- }
+ } */
+ /* const namesWithMd = myFriends.toLowerCase();
+ for(const i of myFriends){
+     return nameWithMd[i];
+     console.log(nameWithMd);
+ } */
+  
 //with function
  function nameWithMd(ac){
     for(let i = 0; i<ac.length; i++){
@@ -37,7 +44,7 @@ for(let i =0; i<myFriends.length; i++){
     
  }
 const friendsName = nameWithMd(myFriends);
-// console.log(friendsName);
+console.log(friendsName);
 
 //print using slice();
 const fruits = ['banana', 'orange', 'lemon', 'apple', 'mango'];
