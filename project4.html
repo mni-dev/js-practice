@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project4</title>
+    <style>
+        body{
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        div>input{
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Trading Portfolio</h1>
+    </header>
+    <main>
+        <div>
+            <h2>Available:<span id="balance-box">00</span></h2>
+            <h2>Available:<span id="btc-box">00</span></h2>
+            <h2>Available:<span id="eth-box">00</span></h2>
+        </div>
+        <div>
+            <form action="">
+                <label for="deposit-field">Deposit Your Money</label>
+                <input type="text" id="deposit-field">
+                <button id="deposit-btn">Deposit</button>
+            </form>
+        </div>
+        <div>
+            <label for="btc-field">Buy BTC:</label>
+            <input type="text" id="btc-field">
+            <button id="btc-btn">Buy</button>
+        </div>
+        <div>
+            <label for="eth-field">Buy ETH:</label>
+            <input type="text" id="eth-field">
+            <button id="eth-btn">Buy</button>
+        </div>
+    </main>
+
+    <script src="project4.js"></script>
+</body>
+</html>
