@@ -10,8 +10,8 @@
             text-align: center;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
-        div>input{
-            margin-bottom: 10px;
+        .input-btn{
+            margin:10px 0;
         }
     </style>
 </head>
@@ -21,23 +21,23 @@
     </header>
     <main>
         <div>
-            <h2>Available:<span id="balance-box">00</span></h2>
-            <h2>Available:<span id="btc-box">00</span></h2>
-            <h2>Available:<span id="eth-box">00</span></h2>
+            <h2>Available Balance:<span id="balance-box">00</span></h2>
+            <h2>Available BitCoin:<span id="btc-box">00</span></h2>
+            <h2>Available Ethereum:<span id="eth-box">00</span></h2>
         </div>
         <div>
-            <form action="">
+            
                 <label for="deposit-field">Deposit Your Money</label>
                 <input type="text" id="deposit-field">
                 <button id="deposit-btn">Deposit</button>
-            </form>
+            
         </div>
-        <div>
+        <div class="input-btn">
             <label for="btc-field">Buy BTC:</label>
             <input type="text" id="btc-field">
             <button id="btc-btn">Buy</button>
         </div>
-        <div>
+        <div class="input-btn">
             <label for="eth-field">Buy ETH:</label>
             <input type="text" id="eth-field">
             <button id="eth-btn">Buy</button>
